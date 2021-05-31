@@ -10,9 +10,22 @@ html{
 }
 
 h1{
-  font-size:8rem;
+  font-size:5rem;
+  font-weight: 600;
+}
+
+h6{
+  float: right;
   font-weight: lighter;
 }
+h3{
+  font-size:3rem;
+  margin-top: 8rem;
+  float: right;
+  font-weight: lighter;
+}
+
+
 
 body{
   height: 100vh;
@@ -49,6 +62,7 @@ button{
   background:black;
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
+  cursor: pointer;
 }
 
 .btn-mul, .btn-div, .btn-add, .btn-sub{
