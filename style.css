@@ -65,5 +65,18 @@ button{
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.btn-equal{
+  justify-self: center;
+  margin: 0;
+  font-size: 3vh;
+  width:24vw;
+  height: 12vh;
+  border:none;
+  border-radius: 6vh;
+  font-weight: bold;
+  background:rgba(185, 6, 6, 0.897);
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
 
