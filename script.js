@@ -137,6 +137,8 @@ document.querySelector('.btn-ac').addEventListener
     exp = '';
     store = '';
     value = '';
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
