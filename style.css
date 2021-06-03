@@ -10,17 +10,14 @@ html{
 }
 
 h1{
-  font-size:5rem;
-  font-weight: 600;
-}
-
-h5{
-  float: right;
+  font-size:6.2rem;
   font-weight: lighter;
 }
+
+
 h3{
-  font-size:3rem;
-  margin-top: 8rem;
+  font-size:5rem;
+  margin-top: 3rem;
   float: right;
   font-weight: lighter;
 }
@@ -37,8 +34,8 @@ body{
 .answer{
   width: 100vw;
   height: 40vh;
-  background: grey;
-  font-family: 'Noto Sans JP', sans-serif;
+  background: rgba(44, 43, 43, 0.562);
+  font-family: 'Hind Siliguri', sans-serif;
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
@@ -61,7 +58,7 @@ button{
   font-weight: bold;
   background:black;
   color: white;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   cursor: pointer;
 }
 
@@ -74,9 +71,9 @@ button{
   border:none;
   border-radius: 6vh;
   font-weight: bold;
-  background:grey;
+  background:rgba(44, 43, 43, 0.562);
   color: white;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .btn-equal{
@@ -90,7 +87,7 @@ button{
   font-weight: bold;
   background:rgba(185, 6, 6, 0.897);
   color: white;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 
