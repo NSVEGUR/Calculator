@@ -8,12 +8,18 @@ let store = '';
 
 let value = '';
 
+let head = 'Calculator';
+
+document.querySelector('.calci').textContent = head;
+
 
 document.querySelector('.btn-0').addEventListener
   ('click', function () {
     exp = '';
     store += 0;
     value += 0;
+    document.querySelector('.calci').style.color = '#ffffff';
+    document.querySelector('.calci').textContent = head;
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -23,6 +29,8 @@ document.querySelector('.btn-1').addEventListener
     exp = '';
     store += 1;
     value += 1;
+    document.querySelector('.calci').style.color = '#ffffff';
+    document.querySelector('.calci').textContent = head;
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -32,6 +40,8 @@ document.querySelector('.btn-2').addEventListener
     exp = '';
     store += 2;
     value += 2;
+    document.querySelector('.calci').style.color = '#ffffff';
+    document.querySelector('.calci').textContent = head;
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -41,6 +51,8 @@ document.querySelector('.btn-3').addEventListener
     exp = '';
     store += 3;
     value += 3;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -50,6 +62,8 @@ document.querySelector('.btn-4').addEventListener
     exp = '';
     store += 4;
     value += 4;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -59,6 +73,8 @@ document.querySelector('.btn-5').addEventListener
     exp = '';
     store += 5;
     value += 5;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -68,6 +84,8 @@ document.querySelector('.btn-6').addEventListener
     exp = '';
     store += 6;
     value += 6;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -77,6 +95,8 @@ document.querySelector('.btn-7').addEventListener
     exp = '';
     store += 7;
     value += 7;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -86,6 +106,8 @@ document.querySelector('.btn-8').addEventListener
     exp = '';
     store += 8;
     value += 8;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -95,6 +117,8 @@ document.querySelector('.btn-9').addEventListener
     exp = '';
     store += 9;
     value += 9;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#ffffff';
     document.querySelector('.exp').textContent = store;
   }
   );
@@ -183,8 +207,12 @@ document.querySelector('.btn-dot').addEventListener
 document.querySelector('.btn-equal').addEventListener
   ('click', function () {
     exp = '';
+    head = store + '=';
     value = String(eval(value));
     document.querySelector('.exp').textContent = value;
+    document.querySelector('.calci').textContent = head;
+    document.querySelector('.calci').style.color = '#52504b';
+    head = 'Calculator';
     store = '';
     value = '';
   }
