@@ -9,6 +9,10 @@ html{
   box-sizing: border-box;
 }
 
+a:active{
+  background-color: none;
+}
+
 h1{
   font-size:6.5rem;
   font-weight: lighter;
