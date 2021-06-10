@@ -68,7 +68,8 @@ button{
   backface-visibility: hidden;
 }
 
-.button:hover{
+button:focus{
+  outline: none;
   backface-visibility: hidden;
 }
 .btn-mul, .btn-div, .btn-add, .btn-sub{
