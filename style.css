@@ -65,8 +65,12 @@ button{
   color: white;
   font-family: 'Hind Siliguri', sans-serif;
   cursor: pointer;
+  backface-visibility: hidden;
 }
 
+.button:hover{
+  backface-visibility: hidden;
+}
 .btn-mul, .btn-div, .btn-add, .btn-sub{
   justify-self: center;
   margin: 0;
