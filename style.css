@@ -14,17 +14,18 @@ a:active{
 }
 
 h1{
-  font-size:6.5rem;
+  font-size:4rem;
   font-weight: lighter;
   max-width: 100vw;
 }
 
 
 h3{
-  font-size:5rem;
-  margin-top: 5rem;
+  font-size:4rem;
+  margin-top: 3rem;
   float: right;
   font-weight: lighter;
+  overflow-wrap: break-word;
 }
 
 
@@ -33,6 +34,7 @@ body{
   height: 100vh;
   color:white;
   background:black;
+  overflow-wrap: break-word;
 }
 
 .answer{
@@ -75,7 +77,7 @@ button:focus{
   justify-self: center;
   margin: 0;
   font-size: 3rem;
-  width:23%;
+  width:20%;
   height: 12vh;
   border:none;
   border-radius: 6vh;
@@ -89,7 +91,7 @@ button:focus{
   justify-self: center;
   margin: 0;
   font-size: 3rem;
-  width:23%;
+  width:20%;
   height: 12vh;
   border:none;
   border-radius: 6vh;
@@ -100,19 +102,25 @@ button:focus{
 }
 
 body{
-  width: 25vw;
+  width: 28vw;
   margin: auto;
 }
 @media screen and (orientation: portrait) {
   body{
     width: 95%;
-    height: 90vh;
-    margin: auto auto;
+    height: 80vh;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  .ques{
+    height: 50vh;
+  }
+  button{
+  height: 10vh;
   }
   .btn-mul, .btn-div, .btn-add, .btn-sub, .btn-equal{
     height: 7rem;
     width: 18%;
-    margin-right: 1rem;
     border-radius: 50%;
   }
 }
