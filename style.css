@@ -31,13 +31,12 @@ h3{
 
 body{
   height: 100vh;
-  width: 100vw;
   color:white;
   background:black;
 }
 
 .answer{
-  width: 100vw;
+  width: 100%;
   height: 40vh;
   background: rgba(44, 43, 43, 0.562);
   font-family: 'Hind Siliguri', sans-serif;
@@ -48,7 +47,7 @@ body{
 {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   height: 60vh;
   display:grid;
   background:black;
@@ -56,8 +55,8 @@ body{
 
 button{
   margin: 0;
-  font-size: 3vh;
-  width:24vw;
+  font-size: 3rem;
+  width: 25%;
   height: 12vh;
   border:none;
   font-weight: bold;
@@ -75,8 +74,8 @@ button:focus{
 .btn-mul, .btn-div, .btn-add, .btn-sub{
   justify-self: center;
   margin: 0;
-  font-size: 3vh;
-  width:24vw;
+  font-size: 3rem;
+  width:23%;
   height: 12vh;
   border:none;
   border-radius: 6vh;
@@ -89,8 +88,8 @@ button:focus{
 .btn-equal{
   justify-self: center;
   margin: 0;
-  font-size: 3vh;
-  width:24vw;
+  font-size: 3rem;
+  width:23%;
   height: 12vh;
   border:none;
   border-radius: 6vh;
@@ -100,4 +99,20 @@ button:focus{
   font-family: 'Hind Siliguri', sans-serif;
 }
 
-
+body{
+  width: 25vw;
+  margin: auto;
+}
+@media screen and (orientation: portrait) {
+  body{
+    width: 95%;
+    height: 90vh;
+    margin: auto auto;
+  }
+  .btn-mul, .btn-div, .btn-add, .btn-sub, .btn-equal{
+    height: 7rem;
+    width: 18%;
+    margin-right: 1rem;
+    border-radius: 50%;
+  }
+}
